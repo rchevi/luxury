@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+h1{ 
+    color:rgb(212, 26, 26);
+    text-decoration: underline yellow;
+    margin-left: 13px;
+     
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 13px;
+    text-align:justify; 
+}
+
+img{    
+    height: 83vh;
+    position: absolute;
+    top: 20px;
+    left: 20dvh;  
+}
+
+a{   
+    font-weight: bolder;
+    font-size: 3em; 
+    color:white;
+    position:fixed;
+    top: 470px;
+    left: 122dvh;
+    text-align: center;
+}
+
+.descripcion{    
+    width: 350px;
+    height: 420px;
+    border-style:groove;
+    border-color: white;
+    position:absolute;
+    top: 30px;
+    left: 110dvh;
+}
