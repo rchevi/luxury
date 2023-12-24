@@ -2,102 +2,125 @@
     margin: 0;  
     padding: 0;
     
-}
-body{
-    background-color: rgb(0, 0, 0);
+   }
+
+@font-face{
+font-family: Romvel_Cyr;
+src:url(../Tipografia/Romvel_Cyr.ttf)
 }
 
-p{
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+header{   
+   background-color: grey;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    color: white;
+   height: 70px;
+   
+   margin-top: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+
+   
+}
+
+
+ul{ 
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   list-style-type: none;
+}
+
+li{  
+   background-color: black;
+   text-align: center;  
+   padding: 10px;
+  
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 60px 0px;
+    
+}
+
+ .centro{   
+    width: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ .lanzamiento{ 
+   display: flex;
+   position: relative;
+   right: 250px;
+   bottom: 400px;
+   text-align: center;
+ }
+
+ .dribling{ 
+   display: flex;
+   position: relative;
+   top: -380px;
+   left: 280px;
+   text-align: center;
+   
+ }
+
+ .pase{ 
+   display: flex;
+   position: relative;
+   bottom: 400px;
+   right: 270px;
+   text-align: center;
+   
+ }
+
+ .defensa{ 
+   display: flex;
+   position:relative;
+   bottom: 1000px;
+   left: 200px;
+   text-align: center;
+   
+ }
+
+ .personalizada{ 
+   display: flex;
+   position:relative;
+   bottom: 680px;
+   left: 120px;
+   text-align: center;
+   
+ }
+
+ p{
+   color: white;
+   font-family: Romvel_Cyr;
+   padding-bottom: 5px;
 }
 
 a{
    color: white;
+   text-decoration: none;
 }
 
  .botones{  
     width: 150px;
  }
 
- .centro{   
-    width: 400px;
-    
-    position: absolute;
-    top: 120px;
-    left: 450px;
-    
-     
+ .pizarra{
+   width: 200px;
  }
-
- .navegacion{   
-    background-color: grey;
-    color: white;
-    height: 70px;
-    margin-top: 34px;
-    
- }
-
- .menu{ 
-    display: inline-block;
-    position: absolute;
-    top: 18px;
-    left:30px;
- }
-
- ul{ 
-    background-color: black;
-    display: inline-block;
-    width: fit-content;
-    margin-left: 620;
-    position: relative;
-    left: 850px;
-    align-content: center;
- }
-
- li{  
-    text-align: center;  
-    display: inline-block;
-    list-style-type: none;
-    padding: 10px;
- }
-
- .lanzamiento{ 
-   position: absolute;
-   top: 130px;
-   left: 290px;
-   text-align: center;
-
- }
-
- .dribling{ 
-   position: absolute;
-   top: 320px;
-   left: 900px;
-   text-align: center;
-   
- }
-
- .pase{ 
-   position: absolute;
-   top: 420px;
-   left: 270px;
-   text-align: center;
-   
- }
-
- .defensa{ 
-   position: absolute;
-   top: 110px;
-   left: 880px;
-   text-align: center;
-   
- }
-
- .fund{   
-   border-style: double;
-   border-radius: 2px;
-   border-color: white;
-   }
 
 .centro{  
    transition: transform 1s;
@@ -114,6 +137,8 @@ div{
 div:hover{  
    transform: translate(10px,10px);
    scale: 1.05;
+}
 
-   
+div:active{ 
+   scale: 0.85;
 }
