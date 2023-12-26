@@ -7,6 +7,11 @@
 font-family: Romvel_Cyr;
 src:url(../Tipografia/Romvel_Cyr.ttf)
 }
+
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">);
+
 body{
     background-color: rgb(0, 0, 0)
 }
@@ -52,7 +57,7 @@ li{
     display: inline;
     padding: 30px;
     font-size: 100px; 
-    font-family: Romvel_Cyr  
+    font-family: 'Caveat', cursive; 
  }
 
  .img{  
@@ -78,3 +83,20 @@ li{
  iframe{
    margin: 30px 300px;   
  }
+
+ a{  
+   transform:translate(.5s);
+}
+
+a:hover{  
+   transform: translate(1px,1px);
+   scale: 1.2;
+   font-size: 120%;
+   font-weight: bolder;
+}
+
+a:active{ 
+   scale: 0.95;
+   font-size: 12px;
+   
+}

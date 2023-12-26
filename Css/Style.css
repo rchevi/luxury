@@ -1,5 +1,5 @@
 *{    
-    margin: 0;  
+    margin:5px;  
     padding: 0;
     
 }
@@ -8,10 +8,7 @@ body{
     background-color: black;
 }
 
-@font-face{
-    font-family: Romvel_Cyr;
-    src:url(../Tipografia/Romvel_Cyr.ttf)
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 main{ 
     display: flex;
@@ -43,15 +40,14 @@ p{
 
 img{    
     height: 90vh;
-    min-height: 500px;
+    min-height: 600px;
     }
 
 
 a{   
-    font-family: Romvel_Cyr;
+    font-family: 'Caveat', cursive;
     text-decoration: none;
-    font-size: 5vw; 
-    min-: 500px;
+    font-size: 10vh; 
     color:white;
     display:flex; 
     justify-content:center;
@@ -59,9 +55,9 @@ a{
 
 .descripcion{    
     width: 50vh;
-    min-width: 300px;
+    min-width: 420px;
     height: 70vh;
-    min-height: 500px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     border-style:double;

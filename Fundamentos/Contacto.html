@@ -27,26 +27,37 @@
 
 <H1>CONTACTO</H1>
 
-<a href="https://wa.me/541168363610"><img class="WA" src="../Imagenes/Whatsapp.png"> Whatsapp</a>
+<a class="whatsapp" href="https://wa.me/541168363610"><img class="WA" src="../Imagenes/Whatsapp.png"> Whatsapp</a>
+
+<h2>O podes dejarnos tus datos en el siguiente formulario:</h2>
+
 
 <main>
-    <form action="post">
+    <form action="https://formsubmit.co/rchevi@hotmail.com" method="POST">
         <div>
         <label for="nombre">Nombre y Apellido</label>
-        <input type="text" id="nombre">
+        <input type="text" id="nombre" placeholder="Nombre y Apellido">
     </div>
     <div>
-        <label for="Tipodeclases">Seleccioná de qué manera querés recibir las clases</label>
-        <label for="Presencial" name="Tipodeclases"> Presencial
-        <input type="radio" id="Presencial" name="Tipodeclases" value="Pres">
+        <label for="celular">Celular (sin el 0 y sin el 15)</label>
+        <input type="tel" id="celular" placeholder="Ej:1112345678">
+    </div>
+    <div>
+        <label for="E-mail">Mail</label>
+        <input type="email" id="mail" placeholder="E-Mail">
+    </div>
+    <div>
+        <label class="pregunta" for="Tipo de clases">Seleccioná de qué manera querés recibir las clases</label>
+        <label for="Presencial" name="Tipo de clases"> Presencial
+        <input type="radio" id="Presencial" name="Tipo de clases" value="Pres">
         </label>
-        <label for="Online" name="Tipodeclases"> OnLine
-            <input type="radio" id="Presencial" name="Tipodeclases" value="Online">
+        <label for="Online" name="Tipo de clases"> OnLine
+            <input type="radio" id="OnLine" name="Tipo de clases" value="Online">
         </label>
     </div>
         <div>
-        <label for="Fundamentos">Marcá qué fundamentos te gustaria trabajar (pueden ser mas de uno)</label>
-        <Label for="Dribling" name="Fundamentos">
+        <label class="pregunta" for="fundamentos">Marcá qué fundamentos te gustaria trabajar (pueden ser mas de uno)</label>
+        <Label for="Dribling" name="fundamentos">
             Dribling
             <input type="checkbox" id="Dribling" name="Fundamentos" value="Dribling">
         </Label>
@@ -71,19 +82,20 @@
             <input type="checkbox" id="Finalizaciones" name="Fundamentos" value="Finalizaciones">
         </Label>
         
-        <Label for="trabajo de pies" name="Fundamentos">
-            trabajo de pies
-            <input type="checkbox" id="trabajo de pies" name="Fundamentos" value="trabajo de pies">
+        <Label for="Trabajo de Pies" name="Fundamentos">
+            Trabajo de Pies
+            <input type="checkbox" id="Trabajo de Pies" name="Fundamentos" value="Trabajo de Pies">
         </Label>
     </div>
 
         <div>
         <label for="comentarios"> Escribinos tu consulta:</label>
         <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-    
+    </div>
+        <button type="submit" class="btn">Enviar</button>
     </form>
-</div>
-<button>Enviar</button>
+
+
 </main>
 <img class="fondo" src="../Imagenes/flechas.png">
 </body>
