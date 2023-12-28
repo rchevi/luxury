@@ -57,44 +57,39 @@ main{
  }
 
  .lanzamiento{ 
-   display: flex;
    position: relative;
-   right: 250px;
-   bottom: 400px;
-   text-align: center;
+   right: 280px;
+   bottom: 450px;
+   text-align: center
  }
 
  .dribling{ 
-   display: flex;
    position: relative;
-   top: -380px;
+   bottom: 200px;
    left: 300px;
-   text-align: center;
+   text-align: center  
    
  }
 
  .pase{ 
-   display: flex;
    position: relative;
-   bottom: 400px;
-   right: 270px;
+   bottom: 200px;
+   right: 400px;
    text-align: center;
    
  }
 
  .defensa{ 
-   display: flex;
-   position:relative;
-   bottom: 1000px;
-   left: 250px;
+   position: relative;
+   bottom: 570px;
+   left: 150px;
    text-align: center;
    
  }
 
  .personalizada{ 
-   display: flex;
-   position:relative;
-   bottom: 680px;
+   position: relative;
+   bottom: 80px;
    left: 120px;
    text-align: center;
    
@@ -112,7 +107,8 @@ a{
 }
 
  .botones{  
-    width: 150px;
+   position: absolute;
+   width: 150px;
  }
 
  .pizarra{
